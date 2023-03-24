@@ -1,2 +1,4 @@
-package com.hashmap.coding;public class CreatedTheHashSet {
+package com.hashmap.coding;
+
+public class CreatedTheHashSet {
 }
