@@ -6,13 +6,13 @@ public class FIndThePowerOfNumber {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
-       int number =  scanner.nextInt();
-       int initialNumber = number;
+        int number = scanner.nextInt();
+        int initialNumber = number;
         System.out.println("Enter the power");
         int power = scanner.nextInt();
         scanner.close();
-        for(int i=1; i<power; i++){
-            number = number*initialNumber;
+        for (int i = 1; i < power; i++) {
+            number = number * number;
         }
         System.out.println(number);
     }
